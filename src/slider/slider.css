@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+.container-fluid{
+    padding: 0 !important;
+}
+
+.slider-images {
+ /* width: 52%; */
+ /* border-radius: 50px ; */
+ /* margin: 50px 0px 0px 720px; */
+ /* padding: 50px; */
+ /* order: 2; */
+ /* position: relative; */
+ /* border: 2px solid; */
+ height: 50% !important;    
+ /* position: relative; */
+ /* margin-left: 150px; */
+ /* height: 20px; */
+}
+
+
+.d-block{
+    height: 500px !important;
+}
+.carousel-caption{
+    position: absolute !important;
+    text-align: end !important;
+    top: 1.25rem !important;
+}
+@media (min-width: 1200px){.h3, h3{
+    font-size: 3.75rem !important;
+}}
+p{
+    font-size: 1.5rem !important;
+}
+.carousel-control-next, .carousel-control-prev{
+    z-index: 0 !important;
+}

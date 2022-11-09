@@ -1,0 +1,116 @@
+/* .cart-items{ */
+    
+    
+    /* border: 1px solid;    */
+   /*  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start; */
+    /* padding: 30px; */
+    /* width: 70%; */
+    
+    
+/* } */
+/* .containe{
+    position: relative;
+    
+    width: 100%;
+} */
+.cart-items{
+    /* background-color: yellowgreen; */
+    width: 100%;
+    padding-left: 80px;
+
+}
+.image{
+    width: 200px;
+    height: 200px   ;
+    border-radius: 20px;
+    position: relative;
+   
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+}
+.hover1{
+    z-index: 1;
+    transition: 0.5s;
+}
+.hover2{
+    z-index: 0;
+    transition: 0.5s;
+}
+.image:hover .hover1{
+    z-index:0;
+}
+.image:hover .hover2{
+    z-index: 1;
+}
+
+.item_content{
+    margin-top: 30px;
+}
+.Appp   {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px;
+    /* column-gap: 50px; */
+    row-gap: 50px;
+    width: 100%;
+}
+
+.App {
+    text-align: left !important;
+    
+  }
+  @media screen and (max-width: 992px) {
+    .App{
+        grid-template-columns: auto;
+        row-gap: 50px;
+    }
+    .cart-items{
+        padding-left: 35px;
+    }
+  }
+  .Wishlist-button{
+    position:absolute;
+    bottom: -15px;
+    right: 120px;
+    font-size: 20px;
+   
+    padding: 4px 10px;
+    border-radius: 150px;
+    border: 1px solid #000;
+    z-index: 99;
+  }
+  .Add-button{
+    position: absolute;
+    bottom: -15px;
+    right: 70px;
+    font-size: 20px;
+    padding: 4px 10px;
+    border-radius: 150px;
+    border: 1px solid #000;
+    z-index: 99;
+    
+  }
+  .subtract-button{
+    position: absolute;
+    bottom: -15px;
+    right: 20px;
+    font-size: 20px;
+    padding: 4px 10px;
+    border-radius: 150px;
+    border: 1px solid #000;
+    z-index: 99;
+  }
+  .containe .cart_button{
+    display: flex;
+    align-items: flex-end;
+  }

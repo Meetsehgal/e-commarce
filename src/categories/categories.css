@@ -1,0 +1,25 @@
+.bg-dark{
+    width: 19rem !important;
+    height: 15rem !important;
+}
+ img.card-img{
+    height: 100% !important;
+}
+.Featured-categories-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px 0px 50px;
+    gap: 5rem;
+}
+.heading{
+    margin: 50px 0px -40px 0px;
+    text-align: center;
+}
+@media (max-width:568px) {
+    .Featured-categories-card{
+     display: flex;
+     flex-direction: column;
+    }
+}
